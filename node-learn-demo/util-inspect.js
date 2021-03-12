@@ -8,6 +8,6 @@ function Person() {
 }
 
 var obj = new Person()
-console.log(util.inspect(obj));
+console.log(util.inspect(obj)); 
 console.log(util.inspect(obj, true));
 console.log(typeof util.inspect(obj));
